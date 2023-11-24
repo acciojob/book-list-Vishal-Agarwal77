@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+h1{
+	width:fit-content;
+	margin:auto;
+	margin-bottom:20px;
+}
+.form-group{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	margin-bottom:30px;
+}
+#submit{
+	width:fit-content;
+	padding:7px 7px;
+	margin-top:20px;
+	background:rgb(13,110,253);
+	border:none;
+	color:white;
+}
+.table thead{
+	border-bottom:2px solid red;
+}
+.table td{
+/* 	border:2px solid red; */
+	width:25vw;
+}
