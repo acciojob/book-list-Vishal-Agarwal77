@@ -24,10 +24,11 @@ form.addEventListener("submit",(event)=>{
 	row.appendChild(col3);
 	row.appendChild(col4);
 	table_body.appendChild(row);
-	let del=document.getElementsByTagName("i");
+	let del=document.getElementsByTagName("button");
 	for(let item of del){
 		item.addEventListener("click",()=>{
 			let node=item.parentNode.parentNode;
+			console.log(node);
 			node.remove();
 		})	
 	}
